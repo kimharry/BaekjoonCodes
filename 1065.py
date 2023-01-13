@@ -1,8 +1,9 @@
 def get_1_10(n, m):
     if n == 3:
-        return m%10, m//10%10, m//100
+        return m % 10, m//10 % 10, m//100
     elif n == 4:
-        return m%10, m//10%10, m//100%10, m//1000
+        return m % 10, m//10 % 10, m//100 % 10, m//1000
+
 
 n = int(input())
 count = 0

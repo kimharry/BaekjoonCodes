@@ -20,7 +20,7 @@ for i in range(0, num):
             is_right = False
             break
         j += 1
-    
+
     if is_right:
         count += 1
 

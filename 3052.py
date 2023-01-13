@@ -11,7 +11,6 @@ for i in range(0, 10):
     else:
         count_list.append(num_list[i])
         count += 1
-            
-                
-    
+
+
 print(count)

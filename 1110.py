@@ -1,6 +1,7 @@
 def get_1_10(n):
     return n % 10, n // 10
 
+
 original = int(input())
 num = original
 num1, num10 = get_1_10(num)

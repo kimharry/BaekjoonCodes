@@ -2,7 +2,7 @@ a = int(input())
 b = int(input())
 c = int(input())
 num = a * b * c
-num_list = [0 for _ in range (0, 10)]
+num_list = [0 for _ in range(0, 10)]
 
 while num != 0:
     temp = num % 10

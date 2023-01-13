@@ -10,7 +10,7 @@ for i in range(1, 9973):
 
     if next_num in self_number:
         self_number[next_num-1] = 0
-    
+
 for i in range(0, 10000):
     if self_number[i] != 0:
         print(self_number[i])

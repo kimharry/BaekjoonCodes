@@ -11,7 +11,6 @@ while i < len(string):
         count += 1
         break
 
-
     if string[i] == 'c':
         if string[i+1] == '-':
             i += 1
@@ -32,11 +31,11 @@ while i < len(string):
     elif (string[i] == 'l' or string[i] == 'n') and string[i+1] == 'j':
         i += 1
         count += 1
-    
+
     elif (string[i] == 's' or string[i] == 'z') and string[i+1] == '=':
         i += 1
         count += 1
-    
+
     else:
         count += 1
 

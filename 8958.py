@@ -4,6 +4,7 @@ def sum(n):
     else:
         return n + sum(n-1)
 
+
 n = int(input())
 score = []
 
@@ -11,7 +12,7 @@ for _ in range(0, n):
     temp = ''
     temp = list(input())
     temp_score = 0
-    
+
     i = -1
     while i < len(temp):
         i += 1

@@ -10,7 +10,7 @@ for _ in range(0, total):
     for i in range(0, len(num_list)):
         if num_list[i] > ave:
             count += 1
-    
+
     result.append(count / n * 100)
 
 for i in range(0, total):
